@@ -11,7 +11,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "greblovs.github.io/DanilaWeb",
+  "homepage": "greblovs.github.io/danilaweb",
 
   "scripts": {
     "start": "react-scripts start",
