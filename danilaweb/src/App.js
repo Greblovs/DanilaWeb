@@ -8,12 +8,12 @@ import PersonalInfo from "./Components/PersonalInfo/PersonalInfo";
 
 function App() {
   return (
-      <>
+      <div >
           <Profile/>
           <Menu/>
           <PersonalInfo/>
 
-      </>
+      </div>
   );
 }
 

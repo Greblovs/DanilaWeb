@@ -1,25 +1,50 @@
 .menu{
   width: 100vw;
   height: 66px;
-  background-color: black;
-  color: white;
+  background-color: #161415;
+  color:white;
   z-index: 100;
   position: fixed;
+  overflow: hidden;
 }
-.menuElement{
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-  height: 66px;
-  line-height: 66px;
-  font-size: 1.1em;
-  display: inline-block;
-}
-.menuList{
-  font-family: "Roboto", serif;
-  font-weight: 600;
-  width: 300px;
-  height: 66px;
-  margin: auto;
 
+@media (max-width: 1024px) {
+  .menuElement {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 66px;
+    line-height: 66px;
+    font-size: 1.1em;
+    display: inline-block;
+  }
+  .menuList {
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    width: 320px;
+
+    margin: auto;
+
+  }
+}
+@media (min-width: 1024px) {
+  .menuElement {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    height: 66px;
+    line-height: 66px;
+    font-size: 1.1em;
+    display: inline-block;
+  }
+  .menuList {
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    width: 460px;
+
+    margin: auto;
+
+  }
 }

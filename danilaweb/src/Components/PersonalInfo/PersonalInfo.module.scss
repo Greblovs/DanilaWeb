@@ -1,5 +1,7 @@
 $main-font: "Roboto";
-
+*{
+  overflow-x: hidden;
+}
 .infoWrapper{
   display: block;
   width: 100vw;
@@ -12,7 +14,8 @@ $main-font: "Roboto";
   text-align: center;
   display: block;
   width: 300px;
-  height: 60px;
+  height: 80px;
+  height: 80px;
   margin: 0 auto;
   color: #b00305;
   font-size: 3.5em;
@@ -90,7 +93,7 @@ $main-font: "Roboto";
   }
   .specificInfoWrapper{
     width: 100vw;
-    margin-top: 50px !important;
+    margin-top: 10px !important;
     margin: auto;
   }
   .info{
@@ -105,11 +108,11 @@ $main-font: "Roboto";
     margin: auto;
     width: 300px;
     color: darkred;
-    font-size: 2.0em;
+    font-size: 2.5em;
   }
   .information{
-    margin-top: 5px;
+    margin-top: 10px;
     color: white;
-    font-size: 1.05em;
+    font-size: 1.15em;
   }
 }
