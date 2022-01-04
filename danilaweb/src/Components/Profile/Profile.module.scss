@@ -1,0 +1,68 @@
+$main-font: "Roboto";
+
+
+.profile{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: blue;
+  z-index: 1;
+  font-family: $main-font, serif;
+}
+
+@media (min-width: 1024px) {
+  .name {
+    font-weight: 600;
+    color: white;
+    font-size: 4.5em;
+    width: 100vw;
+    text-align: center;
+    display: block;
+    padding-top: 35vh;
+    font-family: $main-font, serif;
+  }
+}
+@media (max-width: 1024px) {
+  .name {
+    font-weight: 600;
+    color: white;
+    font-size: 3.5em;
+    width: 100vw;
+    text-align: center;
+    display: block;
+    padding-top: 35vh;
+    font-family: $main-font, serif;
+  }
+}
+
+
+.role{
+  color: white;
+  width: 100vw;
+  text-align: center;
+  display: block;
+  font-size: 2.5em;
+  font-family: $main-font, serif;
+}
+.socialNetworks{
+  width: 230px;
+  height: 50px;
+  margin: auto;
+  padding-top: 50px;
+}
+.icon{
+  margin-left: 25px;
+  width: 25px;
+  height: 25px;
+}
+.arrowDown{
+  margin-top: 100px !important;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background: url("../../Icons/arrow-207-64.png") center center;
+  background-size: cover;
+}
+.arrowDown:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,115 @@
+$main-font: "Roboto";
+
+.infoWrapper{
+  display: block;
+  width: 100vw;
+  padding-top: 100vh;
+  padding-bottom: 150px;
+  background-color: black;
+}
+.Title{
+  margin-top: 120px !important;
+  text-align: center;
+  display: block;
+  width: 300px;
+  height: 60px;
+  margin: 0 auto;
+  color: #b00305;
+  font-size: 3.5em;
+  font-weight: 600;
+  font-family: $main-font, serif;
+  padding-bottom: 50px;
+}
+@media (min-width: 1024px) {
+  .aboutMeWrapper {
+    width: 600px;
+    color: white;
+    margin: auto;
+    margin-top: 50px !important;
+  }
+  .textWrapper{
+    width: 350px;
+    display: inline-block;
+    font-family: $main-font, serif;
+    font-size: 1.1em;
+  }
+  .imageWrapper{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    background: url("../../Icons/DanilaEbalo.jpg") center center;
+    background-size: cover;
+    border-radius: 100px;
+    display: inline-block;
+  }
+  .specificInfoWrapper{
+    width: 900px;
+    margin-top: 100px !important;
+    margin: auto;
+  }
+  .info{
+    font-family: $main-font, serif;
+    color: white;
+    display: inline-block;
+    width: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  .subTitle{
+    width: 300px;
+    color: darkred;
+    font-size: 2.0em;
+  }
+  .information{
+    margin-top: 20px;
+    color: white;
+    font-size: 1.05em;
+  }
+}
+@media (max-width: 1024px) {
+  .aboutMeWrapper {
+    width: 100vw;
+    color: white;
+    margin: auto;
+    margin-top: 50px !important;
+  }
+  .imageWrapper{
+    width: 200px;
+    height: 200px;
+    background: url("../../Icons/DanilaEbalo.jpg") center center;
+    background-size: cover;
+    border-radius: 100px;
+    margin: auto;
+  }
+  .textWrapper{
+    margin-top: 50px !important;
+    width: 90vw;
+    margin: auto;
+    font-family: $main-font, serif;
+    font-size: 1.1em;
+  }
+  .specificInfoWrapper{
+    width: 100vw;
+    margin-top: 50px !important;
+    margin: auto;
+  }
+  .info{
+    font-family: $main-font, serif;
+    color: white;
+    text-align: center;
+    width: 100vw;
+
+  }
+  .subTitle{
+    margin-top: 30px !important;
+    margin: auto;
+    width: 300px;
+    color: darkred;
+    font-size: 2.0em;
+  }
+  .information{
+    margin-top: 5px;
+    color: white;
+    font-size: 1.05em;
+  }
+}
