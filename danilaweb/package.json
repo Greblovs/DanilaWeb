@@ -13,7 +13,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "Greblovs.github.io/DanilaWeb",
+  "homepage": "https://Greblovs.github.io/DanilaWeb/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
