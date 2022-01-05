@@ -5,7 +5,9 @@ $main-font: "Roboto";
   width: 100vw;
   height: 100vh;
 
-  background-color: blue;
+  background: url("../../Icons/MainPirctureDarker.jpg") center center;
+  background-size: cover;
+  background-attachment: fixed;
   z-index: 1;
   font-family: $main-font, serif;
 }

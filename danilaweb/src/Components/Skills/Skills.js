@@ -2,9 +2,9 @@ import React, {Component, useCallback, useEffect, useRef, useState} from "react"
 import classes from "./Skills.module.scss"
 
 
-const Skills = () =>{
+const Skills = (props) =>{
     return(
-    <div className={classes.skillsWrapper}>
+    <div ref ={props.prRef} className={classes.skillsWrapper}>
         <div className={classes.title}>
             My Skills
         </div>

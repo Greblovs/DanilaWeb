@@ -1,0 +1,126 @@
+$main-font: "Roboto";
+.Title{
+  margin-top: 120px !important;
+  text-align: center;
+  display: block;
+  width: 300px;
+  height: 80px;
+  height: 80px;
+  margin: 0 auto;
+  color: #b00305;
+  font-size: 3.5em;
+  font-weight: 600;
+  font-family: $main-font, serif;
+  padding-bottom: 20px;
+}
+
+.ProjectWrapper{
+  width: 100vw;
+  background-color: navajowhite;
+  padding-top: 20px;
+}
+.first{
+  background:  url("../../Icons/first.png");
+  background-size: auto;
+}
+.projectBox{
+  width: 900px;
+  height: 300px;
+  margin-top: 100px !important;
+  margin: 0 auto;
+  margin-bottom: 50px !important;
+}
+.projectImage{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+.projectInfo{
+  float: left;
+  padding-left: 70px;
+  width: 400px;
+  height: 300px;
+}
+
+.projectText{
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+  color: white;
+  font-family: $main-font, Serif;
+  font-size: 1.2em;
+}
+
+.projectTitle{
+  margin-top: 20px;
+  color: white;
+  font-family: $main-font, Serif;
+  font-size: 2.5em;
+  height: 50px;
+  line-height: 50px;
+
+}
+.Interface{
+  float: right;
+  width: 350px;
+  height: 300px;
+  padding-right: 50px;
+}
+.tags{
+  margin-top: 90px;
+}
+.tag{
+  float: left;
+  text-align: center;
+  color: white;
+  font-family: $main-font, Serif;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  display: inline-block;
+  padding-right: 30px;
+  border-radius:  0 50px  50px  0;
+  height: 30px;
+  background-color: darkred;
+  line-height: 30px;
+  font-size: 1.2em;
+}
+.button{
+
+  width: 120px;
+  height: 36px;
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  margin-top: 250px;
+  margin-left: 230px;
+}
+.button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+.tagIcon{
+  margin-left: 10px;
+  margin-right: 5px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  margin-top: 7px;
+  background: url("../../Icons/tag-3-64.png") center center;
+
+  float: left;
+
+}
+
+.github{
+  margin-top: 3px !important;
+  margin: auto;
+  background-size: cover !important;
+  width: 90px;
+  height: 30px;
+  background: url("../../Icons/GitHub_Logo_White.png") center center;
+
+}
+
