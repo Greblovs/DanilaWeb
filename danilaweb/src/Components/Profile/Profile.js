@@ -6,7 +6,10 @@ import linkedIn from "../../Icons/linkedin-32.png"
 import email from "../../Icons/email-32.ico"
 
 
-const Profile = () =>{
+const Profile = (props) =>{
+
+
+
     return (
         <div className={classes.profile}>
             <span className={classes.name}>Danila Batov</span>
@@ -17,7 +20,7 @@ const Profile = () =>{
                 <img className={classes.icon} src={linkedIn}/>
                 <img className={classes.icon} src={email}/>
             </div>
-            <div className={classes.arrowDown}>
+            <div onClick={props.scrollDown} className={classes.arrowDown}>
             </div>
         </div>
 

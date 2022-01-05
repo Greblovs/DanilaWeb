@@ -2,14 +2,14 @@ import React, {Component, useCallback, useEffect, useRef, useState} from "react"
 import classes from "./PersonalInfo.module.scss"
 
 
-const PersonalInfo = () =>{
+const PersonalInfo = (props) =>{
 
     let globalWidth = window.innerWidth;
     return(
         <>
 
-            <div className={classes.infoWrapper}>
-                <span className={classes.Title}>
+            <div ref={props.prRef} className={classes.infoWrapper}>
+                <span  className={classes.Title}>
                     About Me
                 </span>
                 <div className={classes.aboutMeWrapper}>
@@ -40,7 +40,7 @@ const PersonalInfo = () =>{
                     }
                 </div>
 
-                <div className={classes.specificInfoWrapper}>
+                <div  className={classes.specificInfoWrapper}>
                     <div className={classes.info}>
                         <div className={classes.subTitle}>
                             Phone
