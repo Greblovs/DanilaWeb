@@ -20,7 +20,7 @@ $main-font: "Roboto";
   color:  white;
   font-size: 3.5em;
   font-weight: 600;
-  font-family: $main-font, serif;
+
 
 }
 @media (min-width: 1024px) {
@@ -33,7 +33,7 @@ $main-font: "Roboto";
   .textWrapper{
     width: 350px;
     display: inline-block;
-    font-family: $main-font, serif;
+
     font-size: 1.1em;
   }
   .imageWrapper{
@@ -46,15 +46,15 @@ $main-font: "Roboto";
     display: inline-block;
   }
   .specificInfoWrapper{
-    width: 900px;
+    width: 930px;
     margin-top: 100px !important;
     margin: auto;
   }
   .info{
-    font-family: $main-font, serif;
+
     color:   white;
     display: inline-block;
-    width: 150px;
+    width: 160px;
     padding-left: 75px;
     padding-right: 75px;
   }
@@ -89,7 +89,7 @@ $main-font: "Roboto";
     margin-top: 50px !important;
     width: 90vw;
     margin: auto;
-    font-family: $main-font, serif;
+
     font-size: 1.1em;
   }
   .specificInfoWrapper{
@@ -98,7 +98,7 @@ $main-font: "Roboto";
     margin: auto;
   }
   .info{
-    font-family: $main-font, serif;
+
     color:   white;
     text-align: center;
     width: 100vw;

@@ -1,16 +1,18 @@
-$main-font: "Roboto";
+$main-font: "Merriweather";
+
+
 .Title{
   margin-top: 120px !important;
   text-align: center;
   display: block;
-  width: 300px;
+  width: 600px;
   height: 80px;
   height: 80px;
   margin: 0 auto;
   color: #161415;
   font-size: 3.5em;
   font-weight: 600;
-  font-family: $main-font, serif;
+
   padding-bottom: 20px;
 }
 
@@ -48,14 +50,14 @@ $main-font: "Roboto";
   width: 400px;
   height: 200px;
   color: white;
-  font-family: $main-font, Serif;
-  font-size: 1.2em;
+
+  font-size: 1.0em;
 }
 
 .projectTitle{
   margin-top: 20px;
   color: white;
-  font-family: $main-font, Serif;
+
   font-size: 2.5em;
   height: 50px;
   line-height: 50px;
@@ -74,7 +76,7 @@ $main-font: "Roboto";
   float: left;
   text-align: center;
   color: white;
-  font-family: $main-font, Serif;
+
   margin-bottom: 20px;
   margin-left: 50px;
   display: inline-block;
@@ -92,8 +94,8 @@ $main-font: "Roboto";
   background-color: black;
   position: absolute;
   border-radius: 5px;
-  margin-top: 250px;
-  margin-left: 230px;
+  margin-top: 240px;
+  margin-left: 220px;
 }
 .button:hover{
   cursor: pointer;

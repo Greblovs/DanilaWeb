@@ -1,5 +1,5 @@
 $main-font: "Roboto";
-
+@import "../../Fonts";
 
 .profile{
   width: 100vw;
@@ -9,7 +9,7 @@ $main-font: "Roboto";
   background-size: cover;
   background-attachment: fixed;
   z-index: 1;
-  font-family: $main-font, serif;
+
 }
 
 @media (min-width: 1024px) {
@@ -21,7 +21,7 @@ $main-font: "Roboto";
     text-align: center;
     display: block;
     padding-top: 35vh;
-    font-family: $main-font, serif;
+
   }
 }
 @media (max-width: 1024px) {
@@ -33,7 +33,7 @@ $main-font: "Roboto";
     text-align: center;
     display: block;
     padding-top: 35vh;
-    font-family: $main-font, serif;
+
   }
 }
 
@@ -44,7 +44,7 @@ $main-font: "Roboto";
   text-align: center;
   display: block;
   font-size: 2.5em;
-  font-family: $main-font, serif;
+
 }
 .socialNetworks{
   width: 230px;
