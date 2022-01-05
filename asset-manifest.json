@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DanilaWeb/static/css/main.607da2b5.css",
-    "main.js": "/DanilaWeb/static/js/main.24af67c8.js",
+    "main.css": "/DanilaWeb/static/css/main.8164a3a5.css",
+    "main.js": "/DanilaWeb/static/js/main.f6534fb3.js",
     "static/js/787.e563d797.chunk.js": "/DanilaWeb/static/js/787.e563d797.chunk.js",
     "static/media/first.png": "/DanilaWeb/static/media/first.46d10136e0db6dcc02e8.png",
     "static/media/MainPirctureDarker.jpg": "/DanilaWeb/static/media/MainPirctureDarker.89e0e13b09abce852cd7.jpg",
@@ -11,12 +11,12 @@
     "static/media/email-32.ico": "/DanilaWeb/static/media/email-32.e59651fb4429838afc3e.ico",
     "static/media/logo.svg": "/DanilaWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/DanilaWeb/index.html",
-    "main.607da2b5.css.map": "/DanilaWeb/static/css/main.607da2b5.css.map",
-    "main.24af67c8.js.map": "/DanilaWeb/static/js/main.24af67c8.js.map",
+    "main.8164a3a5.css.map": "/DanilaWeb/static/css/main.8164a3a5.css.map",
+    "main.f6534fb3.js.map": "/DanilaWeb/static/js/main.f6534fb3.js.map",
     "787.e563d797.chunk.js.map": "/DanilaWeb/static/js/787.e563d797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.607da2b5.css",
-    "static/js/main.24af67c8.js"
+    "static/css/main.8164a3a5.css",
+    "static/js/main.f6534fb3.js"
   ]
 }
