@@ -18,31 +18,79 @@ $main-font: "Roboto";
   width: 1000px;
   margin: auto;
 }
-.socialNetworks{
-  display: inline-block;
-  height: 150px;
-}
-.map{
-  height: 150px;
-  display: inline-block;
-  padding-left: 100px;
-}
-.support{
-  height: 150px;
-  display: inline-block;
-  padding-left: 100px;
-}
-.contacts{
-  height: 150px;
-  display: inline-block;
-  padding-left: 100px;
-}
-.entery{
-  cursor: pointer;
-  margin-bottom: 5px;
-  display: block;
-  color: white;
-  font-size: 1.0em;
-  font-weight: 600;
 
+@media (min-width: 1024px) {
+  .socialNetworks {
+    display: inline-block;
+    height: 150px;
+  }
+  .map {
+    height: 150px;
+    display: inline-block;
+    padding-left: 100px;
+  }
+  .support {
+    height: 150px;
+    display: inline-block;
+    padding-left: 100px;
+  }
+  .contacts {
+    height: 150px;
+    display: inline-block;
+    padding-left: 100px;
+  }
 }
+
+@media (max-width: 1024px) {
+  .socialNetworks {
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    padding-bottom: 30px;
+
+  }
+  .map {
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    padding-bottom: 30px;
+  }
+  .support {
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    padding-bottom: 50px;
+
+  }
+  .contacts {
+    padding-bottom: 30px;
+    text-align: left;
+    margin: auto;
+    width: 300px;
+
+  }
+}
+
+@media (min-width: 1024px) {
+  .entery {
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    font-size: 1.0em;
+    font-weight: 600;
+
+  }
+}
+@media (max-width:1024px ) {
+  .entery {
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+
+  }
+}
+  

@@ -5,7 +5,7 @@ $main-font: "Merriweather";
   margin-top: 120px !important;
   text-align: center;
   display: block;
-  width: 600px;
+
   height: 80px;
   height: 80px;
   margin: 0 auto;
@@ -25,78 +25,147 @@ $main-font: "Merriweather";
   background:  url("../../Icons/first.png");
   background-size: auto;
 }
-.projectBox{
-  width: 900px;
-  height: 300px;
-  margin-top: 100px !important;
-  margin: 0 auto;
-  margin-bottom: 50px !important;
-}
-.projectImage{
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  float: left;
-}
-.projectInfo{
-  float: left;
-  padding-left: 70px;
-  width: 400px;
-  height: 300px;
+
+@media (min-width: 1024px) {
+  .projectBox {
+    width: 900px;
+    height: 300px;
+    margin-top: 100px !important;
+    margin: 0 auto;
+    margin-bottom: 50px !important;
+  }
+  .projectImage{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+  .projectInfo{
+    float: left;
+    padding-left: 70px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .projectText{
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    color: white;
+
+    font-size: 1.0em;
+  }
+
+  .projectTitle{
+    margin-top: 20px;
+    color: white;
+    font-size: 2.5em;
+    height: 50px;
+    line-height: 50px;
+
+  }
+  .Interface{
+    float: right;
+    width: 350px;
+    height: 300px;
+    padding-right: 50px;
+  }
+  .tags{
+    margin-top: 90px;
+  }
+  .tag{
+    float: left;
+    text-align: center;
+    color: white;
+
+    margin-bottom: 20px;
+    margin-left: 50px;
+    display: inline-block;
+    padding-right: 30px;
+    border-radius:  0 50px  50px  0;
+    height: 30px;
+    background-color: darkred;
+    line-height: 30px;
+    font-size: 1.2em;
+  }
+  .button{
+
+    width: 120px;
+    height: 36px;
+    background-color: black;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 240px;
+    margin-left: 220px;
+  }
 }
 
-.projectText{
-  margin-top: 20px;
-  width: 400px;
-  height: 200px;
-  color: white;
+@media(max-width: 1024px){
+  .projectBox {
+    width: 90vw;
+    padding-bottom: 30px;
+    margin-top: 100px !important;
+    margin: 0 auto;
+    margin-bottom: 50px !important;
+  }
+  .projectTitle{
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    font-size: 2.5em;
+    height: 50px;
+    line-height: 50px;
 
-  font-size: 1.0em;
+  }
+  .projectText{
+    margin-top: 20px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-size: 1.0em;
+  }
+  .projectInfo{
+    width: 100%;
+
+  }
+  .Interface{
+    width: 100%;
+
+    padding-right: 50px;
+  }
+  .tags{
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .tag{
+
+    text-align: center;
+    color: white;
+
+    margin-bottom: 10px;
+    margin-right: 50px;
+    display: inline-block;
+    padding-right: 30px;
+    border-radius:  0 50px  50px  0;
+    height: 30px;
+    background-color: darkred;
+    line-height: 30px;
+    font-size: 1.2em;
+  }
+  .button{
+    width: 120px;
+    height: 36px;
+    background-color: black;
+    border-radius: 5px;
+    margin: auto;
+  }
 }
 
-.projectTitle{
-  margin-top: 20px;
-  color: white;
 
-  font-size: 2.5em;
-  height: 50px;
-  line-height: 50px;
-
-}
-.Interface{
-  float: right;
-  width: 350px;
-  height: 300px;
-  padding-right: 50px;
-}
-.tags{
-  margin-top: 90px;
-}
-.tag{
-  float: left;
-  text-align: center;
-  color: white;
-
-  margin-bottom: 20px;
-  margin-left: 50px;
-  display: inline-block;
-  padding-right: 30px;
-  border-radius:  0 50px  50px  0;
-  height: 30px;
-  background-color: darkred;
-  line-height: 30px;
-  font-size: 1.2em;
-}
-.button{
-
-  width: 120px;
-  height: 36px;
-  background-color: black;
-  position: absolute;
-  border-radius: 5px;
-  margin-top: 240px;
-  margin-left: 220px;
-}
 .button:hover{
   cursor: pointer;
   opacity: 0.9;
