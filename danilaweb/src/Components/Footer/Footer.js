@@ -21,7 +21,7 @@ const Footer = (props) => {
                     <span className={classes.entery}>Corvallis OR, 97333</span>
                 </div>
                 <div className={classes.map}>
-                    <span className={classes.subTitle}>Map</span>
+                    <span className={classes.subTitle}>Website Map</span>
                     <span onClick={props.scrollProfile} className={classes.entery}>Profile</span>
                     <span onClick={props.scrollSkills} className={classes.entery}>Skills</span>
                     <span onClick={props.scrollMyProject} className={classes.entery}>Projects</span>
