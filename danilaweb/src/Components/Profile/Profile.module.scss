@@ -1,17 +1,33 @@
 $main-font: "Roboto";
 @import "../../Fonts";
 
-.profile{
-  width: 100vw;
-  height: 100vh;
 
-  background: url("../../Icons/MainPirctureDarker.jpg") center center;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: 1;
+@media (min-width: 1024px) {
+  .profile{
+    width: 100vw;
+    height: 100vh;
 
+    background: url("../../Icons/MainPirctureDarker.jpg") center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+
+  }
 }
 
+
+@media (max-width: 1024px) {
+  .profile{
+    width: 100vw;
+    height: 100vh;
+
+    background: url("../../Icons/MainPirctureDarker.jpg") center center;
+    background-size: cover;
+   
+    z-index: 1;
+
+  }
+}
 @media (min-width: 1024px) {
   .name {
     font-weight: 600;
