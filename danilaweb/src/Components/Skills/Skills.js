@@ -23,21 +23,21 @@ const Skills = (props) =>{
                         <div className={classes.skill}>
                             <span className={classes.text}> C#</span>
                             <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 100}}>
+                                <div className={classes.actualLine} style={{"width": 160}}>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.skill}>
+                            <span className={classes.text}>C</span>
+                            <div className={classes.line}>
+                                <div className={classes.actualLine} style={{"width": 110}}>
                                 </div>
                             </div>
                         </div>
                         <div className={classes.skill}>
                             <span className={classes.text}>Python</span>
                             <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 130}}>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={classes.skill}>
-                            <span className={classes.text}>JavaScript</span>
-                            <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 70}}>
+                                <div className={classes.actualLine} style={{"width": 90}}>
                                 </div>
                             </div>
                         </div>
@@ -54,23 +54,23 @@ const Skills = (props) =>{
                             </div>
                         </div>
                         <div className={classes.skill}>
+                            <span className={classes.text}>OpenGL</span>
+                            <div className={classes.line}>
+                                <div className={classes.actualLine} style={{"width": 120}}>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.skill}>
+                            <span className={classes.text}>ZBrush</span>
+                            <div className={classes.line}>
+                                <div className={classes.actualLine} style={{"width": 50}}>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.skill}>
                             <span className={classes.text}>Vulkan</span>
                             <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 100}}>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={classes.skill}>
-                            <span className={classes.text}>Maya</span>
-                            <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 130}}>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={classes.skill}>
-                            <span className={classes.text}>Fusion</span>
-                            <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 70}}>
+                                <div className={classes.actualLine} style={{"width": 50}}>
                                 </div>
                             </div>
                         </div>
@@ -96,9 +96,9 @@ const Skills = (props) =>{
                             </div>
                         </div>
                         <div className={classes.skill}>
-                            <span className={classes.text}>Python</span>
+                            <span className={classes.text}>Game Design</span>
                             <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 130}}>
+                                <div className={classes.actualLine} style={{"width": 100}}>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ const Skills = (props) =>{
                         <div className={classes.skill}>
                             <span className={classes.text}>JavaScript</span>
                             <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 160}}>
+                                <div className={classes.actualLine} style={{"width": 120}}>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const Skills = (props) =>{
                         <div className={classes.skill}>
                             <span className={classes.text}>NodeJS</span>
                             <div className={classes.line}>
-                                <div className={classes.actualLine} style={{"width": 130}}>
+                                <div className={classes.actualLine} style={{"width": 110}}>
                                 </div>
                             </div>
                         </div>

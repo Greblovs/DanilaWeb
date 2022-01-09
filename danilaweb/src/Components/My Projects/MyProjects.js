@@ -13,10 +13,14 @@ const MyProjects = (props) =>{
             <div className={classes.projectBox + " " + classes.first }>
                 <div className={classes.projectInfo}>
                     <div className={classes.projectTitle}>
-                        Title
+                        Rogues` Tales
                     </div>
                     <div className={classes.projectText}>
-                        Lorem ipsum dolor sit amet, mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    </div>
+                    Rogues` Tales is a dynamic Pixel Action-RPG in the Roguelike genre for android devices. 
+                    It is being developed in a team of 3 people. I was a leading programmer and designer responsible for core mechanics design and their implementation. <br />
+                     - Created Random Dungeon generation <br />
+                     - Designed and Implemented gameplay loop <br />
+                     - Design and implement Player stats </div>
                     <div className={classes.projectTags}></div>
                 </div>
                 {width>=1024 ?
@@ -36,7 +40,7 @@ const MyProjects = (props) =>{
                         </div>
                         <div className={classes.tag}>
                             <div className={classes.tagIcon}></div>
-                            Unreal Engine
+                            Game Design
                         </div>
                         <div className={classes.tag}>
                             <div className={classes.tagIcon}></div>
@@ -57,7 +61,7 @@ const MyProjects = (props) =>{
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Unreal Engine
+                                Game Design
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
@@ -75,13 +79,16 @@ const MyProjects = (props) =>{
 
 
 
-            <div className={classes.projectBox + " " + classes.first }>
+            <div className={classes.projectBox + " " + classes.second }>
                 <div className={classes.projectInfo}>
                     <div className={classes.projectTitle}>
-                        Title
+                        Roop
                     </div>
                     <div className={classes.projectText}>
-                        Lorem ipsum dolor sit amet, mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    </div>
+                    Roop is a simulator of a clerk that understands that his life is nothing but an infinite loop. The game was created for Ludum Dare 47 within 72 hours. I was responsible for interaction mechanics, sound, and level design. <br />
+                        - Created the office level <br />
+                        - Created dialogs and interaction mechanics <br />
+                        - Created audio design                  </div>
                     <div className={classes.projectTags}></div>
                 </div>
                 {width>=1024 ?
@@ -101,11 +108,11 @@ const MyProjects = (props) =>{
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Unreal Engine
+                                Audio Design
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Pixel Art
+                                Level Design
                             </div>
                         </div>
                     </div>
@@ -122,11 +129,11 @@ const MyProjects = (props) =>{
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Unreal Engine
+                                Audio Design
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Pixel Art
+                                Level Design
                             </div>
                         </div>
                         <div className={classes.button}>
@@ -141,13 +148,16 @@ const MyProjects = (props) =>{
 
 
 
-            <div className={classes.projectBox + " " + classes.first }>
+            <div className={classes.projectBox + " " + classes.third }>
                 <div className={classes.projectInfo}>
                     <div className={classes.projectTitle}>
-                        Title
+                        Augmented Reality Sandbox
                     </div>
                     <div className={classes.projectText}>
-                        Lorem ipsum dolor sit amet, mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    </div>
+                        AR Sandbox is a university Capstone project. It is designed to help civil engineers to learn about natural disasters' consequences through the sandbox interaction. <br />
+                        - Created Natural disasters Visualization <br />
+                        - Integrated teammates components into Unity <br />
+                        - Practiced Agile development                     </div>
                     <div className={classes.projectTags}></div>
                 </div>
                 {width>=1024 ?
@@ -167,11 +177,11 @@ const MyProjects = (props) =>{
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Unreal Engine
+                                AR
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Pixel Art
+                                Agile
                             </div>
                         </div>
                     </div>
@@ -188,11 +198,11 @@ const MyProjects = (props) =>{
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Unreal Engine
+                                AR
                             </div>
                             <div className={classes.tag}>
                                 <div className={classes.tagIcon}></div>
-                                Pixel Art
+                                Agile
                             </div>
                         </div>
                         <div className={classes.button}>

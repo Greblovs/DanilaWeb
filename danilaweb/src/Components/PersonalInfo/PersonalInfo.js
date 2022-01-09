@@ -16,11 +16,9 @@ const PersonalInfo = (props) =>{
                     {globalWidth > 1024 ?
                         <>
                             <div className={classes.textWrapper}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            I am an undergraduate Computer Science student at Oregon State University. In my free from studing time, 
+                            I test gameplay ideas in open game engines like Unity and Unreal Engine 4. 
+                            My primal interests are game design and gameplay mechanics implementation.
                             </div>
                             < div className = {classes.imageWrapper} >
                                 </div>
@@ -30,11 +28,9 @@ const PersonalInfo = (props) =>{
                             < div className = {classes.imageWrapper} >
                             </div>
                             <div className={classes.textWrapper}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            I am an undergraduate Computer Science student at Oregon State University. In my free from studing time, 
+                            I test gameplay ideas in open game engines like Unity and Unreal Engine 4. 
+                            My primal interests are game design and gameplay mechanics implementation.
                             </div>
                         </>
                     }
@@ -46,7 +42,7 @@ const PersonalInfo = (props) =>{
                             Phone
                         </div>
                         <div className={classes.information}>
-                            +380 040 145 565
+                            +1 (541) 908 9677
                         </div>
                     </div>
                     <div className={classes.info}>

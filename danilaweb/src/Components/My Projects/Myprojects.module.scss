@@ -17,11 +17,19 @@ $main-font: "Merriweather";
 
 .ProjectWrapper{
   width: 100vw;
-  background-color: navajowhite;
+  background-color: #ffffff;
   padding-top: 20px;
 }
 .first{
-  background:  url("../../Icons/first.png");
+  background:  url("../../Icons/RoguesTales.png");
+  background-size: auto;
+}
+.second{
+  background:  url("../../Icons/Roop.jpeg");
+  background-size: auto;
+}
+.third{
+  background:  url("../../Icons/AugmentedReality.jpeg");
   background-size: auto;
 }
 
