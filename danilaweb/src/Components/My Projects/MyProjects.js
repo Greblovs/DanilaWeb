@@ -17,10 +17,11 @@ const MyProjects = (props) =>{
                     </div>
                     <div className={classes.projectText}>
                     Rogues` Tales is a dynamic Pixel Action-RPG in the Roguelike genre for android devices. 
-                    It is being developed in a team of 3 people. I was a leading programmer and designer responsible for core mechanics design and their implementation. <br />
-                     - Created Random Dungeon generation <br />
-                     - Designed and Implemented gameplay loop <br />
-                     - Design and implement Player stats </div>
+                    It is being developed in a team of 3 people. I was a leading programmer and designer responsible for core mechanics design and implementation. <br /> <br />
+                        <li>Created Random Dungeon generation </li>
+                        <li>Designed and Implemented gameplay loop  </li>
+                        <li>Design and implement Player stats  </li>
+                </div>
                     <div className={classes.projectTags}></div>
                 </div>
                 {width>=1024 ?
@@ -85,10 +86,11 @@ const MyProjects = (props) =>{
                         Roop
                     </div>
                     <div className={classes.projectText}>
-                    Roop is a simulator of a clerk that understands that his life is nothing but an infinite loop. The game was created for Ludum Dare 47 within 72 hours. I was responsible for interaction mechanics, sound, and level design. <br />
-                        - Created the office level <br />
-                        - Created dialogs and interaction mechanics <br />
-                        - Created audio design                  </div>
+                    Roop is a simulator of a clerk that understands that his life is nothing but an infinite loop. The game was created for Ludum Dare 47 within 72 hours. I was responsible for interaction mechanics, sound, and level design.  <br /> <br />
+                        <li>Created the office level</li>
+                        <li>Created dialogs and interaction mechanics</li>
+                        <li>Created audio design</li>
+                    </div>
                     <div className={classes.projectTags}></div>
                 </div>
                 {width>=1024 ?
@@ -154,10 +156,11 @@ const MyProjects = (props) =>{
                         Augmented Reality Sandbox
                     </div>
                     <div className={classes.projectText}>
-                        AR Sandbox is a university Capstone project. It is designed to help civil engineers to learn about natural disasters' consequences through the sandbox interaction. <br />
-                        - Created Natural disasters Visualization <br />
-                        - Integrated teammates components into Unity <br />
-                        - Practiced Agile development                     </div>
+                        AR Sandbox is a university Capstone project. It is designed to help civil engineers to learn about natural disasters' consequences through the sandbox interaction. <br />  <br />
+                        <li>Created Natural disasters Visualization </li>
+                        <li>Integrated teammates components into Unity </li>
+                        <li>Practiced Agile development</li>
+                </div>
                     <div className={classes.projectTags}></div>
                 </div>
                 {width>=1024 ?
