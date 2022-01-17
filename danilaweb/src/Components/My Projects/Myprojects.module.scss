@@ -17,19 +17,60 @@ $main-font: "Merriweather";
 .ProjectWrapper{
   width: 100vw;
   background-color: #ffdead;
+
   padding-top: 20px;
 }
-.first{
-  background-size: cover;
-  background: black url("../../Icons/RoguesTales.png") no-repeat center right;
-}
-.second{
-  background: black url("../../Icons/Roop.jpeg")  no-repeat;
 
+@media (min-width: 1024px) {
+  .first{
+    background-size: cover;
+
+    background: black url("../../Icons/RoguesTalesDesk.png") no-repeat center center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .first{
+    background-size: auto;
+    background: black url("../../Icons/RoguesTalesMob.png") no-repeat center center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .second{
+    background: black url("../../Icons/RoopMob.png")  no-repeat;
+
+    background-size: cover;
+  }
+}
+@media (min-width: 1024px) {
+  .second{
+    background: black url("../../Icons/RoopDesk.jpeg")  no-repeat;
+
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .third{
+    background: black url("../../Icons/AugmentedRealityDesk.jpeg") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .third{
+    background: black url("../../Icons/AugmentedRealityMob.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+.fourth{
+  background: black url("../../Icons/Build12.png") no-repeat;
   background-size: cover;
 }
-.third{
-  background: black url("../../Icons/AugmentedReality.jpeg") no-repeat;
+.fifth{
+  background: black url("../../Icons/MulTest.png") no-repeat;
   background-size: cover;
 }
 
@@ -199,6 +240,33 @@ $main-font: "Merriweather";
   width: 90px;
   height: 30px;
   background: url("../../Icons/GitHub_Logo_White.png") center center;
+
+}
+.googlePlay{
+  margin-top: 3px !important;
+  margin: auto;
+  background-size: cover !important;
+  width: 90px;
+  height: 30px;
+  background: url("../../Icons/google-play-badge.png") center center;
+
+}
+.itchIO{
+  margin-top: 3px !important;
+  margin: auto;
+  background-size: cover !important;
+  width: 90px;
+  height: 30px;
+  background: url("../../Icons/badge.png") center center;
+
+}
+.youtube{
+  margin-top: 3px !important;
+  margin: auto;
+  background-size: cover !important;
+  width: 90px;
+  height: 30px;
+  background: url("../../Icons/yt_logo_rgb_dark.png") center center;
 
 }
 

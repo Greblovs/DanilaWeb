@@ -11,13 +11,18 @@ const Footer = (props) => {
             <div className={classes.contentWrapper}>
                 <div className={classes.socialNetworks}>
                     <span className={classes.subTitle}>Social Networks</span>
-                    <span className={classes.entery}>Instagram</span>
-                    <span className={classes.entery}>Telegram</span>
-                    <span className={classes.entery}>LinkedIn</span>
+                    <a href ="https://www.instagram.com/thegreatteaparty/">
+                        <span className={classes.entery}>Instagram</span>
+                    </a>
+                    <a href ="https://www.linkedin.com/in/danila-batov-57134b1b6/">
+                        <span className={classes.entery}>LinkedIn</span>
+                    </a>
                 </div>
                 <div className={classes.contacts}>
                     <span className={classes.subTitle}>Contacts</span>
-                    <span className={classes.entery}>Danila@oregonstate.edu</span>
+                    <a href ="mailto:mebatovd@oregonstate.edu">
+                        <span className={classes.entery}>batovd@oregonstate.edu</span>
+                    </a>
                     <span className={classes.entery}>Corvallis OR, 97333</span>
                 </div>
                 <div className={classes.map}>

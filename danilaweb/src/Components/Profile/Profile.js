@@ -15,10 +15,18 @@ const Profile = (props) =>{
             <span className={classes.name}>Danila Batov</span>
             <span className={classes.role}>Game Developer</span>
             <div className={classes.socialNetworks}>
-                <img className={classes.icon} src={image}/>
-                <img className={classes.icon} src={github}/>
-                <img className={classes.icon} src={linkedIn}/>
-                <img className={classes.icon} src={email}/>
+                <a href ="https://www.instagram.com/thegreatteaparty/">
+                    <img className={classes.icon} src={image}/>
+                </a>
+                <a href ="https://github.com/batovski">
+                    <img className={classes.icon} src={github}/>
+                </a>
+                <a href ="https://www.linkedin.com/in/danila-batov-57134b1b6/">
+                    <img className={classes.icon} src={linkedIn}/>
+                </a>
+                <a href ="mailto:mebatovd@oregonstate.edu">
+                    <img className={classes.icon} src={email}/>
+                </a>
             </div>
             <div onClick={props.scrollDown} className={classes.arrowDown}>
             </div>

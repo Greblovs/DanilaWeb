@@ -27,8 +27,14 @@ const MyProjects = (props) =>{
                 {width>=1024 ?
                 <div className={classes.Interface}>
                     <div className={classes.button}>
-                        <div className={classes.github}>
-                        </div>
+                            <a href ="https://play.google.com/store/apps/details?id=com.TheGreatTeaParty.RoguesTales">
+                                <div className={classes.googlePlay}>
+                                </div>
+                            </a>
+                            <a href ="https://github.com/TheGreatTeaParty/RogueUltimate">
+                                <div className={classes.github}>
+                                </div>
+                            </a>
                     </div>
                     <div className={classes.tags}>
                         <div className={classes.tag}>
@@ -96,8 +102,14 @@ const MyProjects = (props) =>{
                 {width>=1024 ?
                     <div className={classes.Interface}>
                         <div className={classes.button}>
-                            <div className={classes.github}>
-                            </div>
+                            <a href ="https://thegreatteaparty.itch.io/roop">
+                                <div className={classes.itchIO}>
+                                </div>
+                            </a>
+                            <a href ="https://github.com/Lev4iks/supreme-eureka">
+                                <div className={classes.github}>
+                                </div>
+                            </a>
                         </div>
                         <div className={classes.tags}>
                             <div className={classes.tag}>
@@ -214,6 +226,150 @@ const MyProjects = (props) =>{
                         </div>
                     </div>
                 }
+
+            </div>
+
+            <div className={classes.projectBox + " " + classes.fourth }>
+                <div className={classes.projectInfo}>
+                    <div className={classes.projectTitle}>
+                       Isometric Game Prototype
+                    </div>
+                    <div className={classes.projectText}>
+                    It is an Isometric Game Prototype to test A* understanding with Perlin noise hex map generation.
+                        <br /> <br />
+                        <li>Created A* pathfinding for Hex map wth optimization modification</li>
+                        <li>Created Hex map generation procces using Perlin noise </li>
+                        <li>Implemented Day/Night cycle  </li>
+                </div>
+                    <div className={classes.projectTags}></div>
+                </div>
+                {width>=1024 ?
+                <div className={classes.Interface}>
+                    <div className={classes.button}>
+                            <a href ="https://github.com/batovski/IsometricPrototype">
+                                <div className={classes.github}>
+                                </div>
+                            </a>
+                    </div>
+                    <div className={classes.tags}>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            UE4
+                        </div>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            C++
+                        </div>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            Blueprint
+                        </div>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            A*
+                        </div>
+                    </div>
+                </div>
+                :
+                    <div className={classes.Interface}>
+                        <div className={classes.tags}>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                UE4
+                            </div>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                C++
+                            </div>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                Blueprint
+                            </div>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                A*
+                            </div>
+                        </div>
+                        <div className={classes.button}>
+                            <div className={classes.github}>
+                            </div>
+                        </div>
+                    </div>
+                    }
+
+            </div>
+
+            <div className={classes.projectBox + " " + classes.fifth }>
+                <div className={classes.projectInfo}>
+                    <div className={classes.projectTitle}>
+                        2D Multiplayer Game Prototype
+                    </div>
+                    <div className={classes.projectText}>
+                    It is a multiplayer game prototype with a custom server/client implementation using Unity. 
+                    <br /> <br />
+                        <li>Created Server using .Net </li>
+                        <li>Implemented TCP/UDP communication protocols </li>
+                        <li>Synchronized Characters Position and Animation</li>
+                </div>
+                    <div className={classes.projectTags}></div>
+                </div>
+                {width>=1024 ?
+                <div className={classes.Interface}>
+                    <div className={classes.button}>
+                            <a href ="https://youtu.be/_HcFK6W8wvA">
+                                <div className={classes.youtube}>
+                                </div>
+                            </a>
+                            <a href ="https://github.com/batovski/Client-Server">
+                                <div className={classes.github}>
+                                </div>
+                            </a>
+                    </div>
+                    <div className={classes.tags}>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            Unity
+                        </div>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            C#
+                        </div>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            .Net
+                        </div>
+                        <div className={classes.tag}>
+                            <div className={classes.tagIcon}></div>
+                            TCP / UDP
+                        </div>
+                    </div>
+                </div>
+                :
+                    <div className={classes.Interface}>
+                        <div className={classes.tags}>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                Unity
+                            </div>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                C#
+                            </div>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                .Net
+                            </div>
+                            <div className={classes.tag}>
+                                <div className={classes.tagIcon}></div>
+                                TCP / UDP
+                            </div>
+                        </div>
+                        <div className={classes.button}>
+                            <div className={classes.github}>
+                            </div>
+                        </div>
+                    </div>
+                    }
 
             </div>
 

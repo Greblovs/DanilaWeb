@@ -48,7 +48,7 @@ const PersonalInfo = (props) =>{
                     <div className={classes.info}>
                         <div className={classes.subTitle}>Email</div>
                         <div className={classes.information}>
-                            batov@oregonstate.edu
+                            batovd@oregonstate.edu
                         </div>
                     </div>
                     <div className={classes.info}>
