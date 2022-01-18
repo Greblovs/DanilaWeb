@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/DanilaWeb/static/css/main.1d449b27.css",
-    "main.js": "/DanilaWeb/static/js/main.6e2b42ca.js",
+    "main.css": "/DanilaWeb/static/css/main.696609b7.css",
+    "main.js": "/DanilaWeb/static/js/main.f05bbdab.js",
     "static/js/787.e563d797.chunk.js": "/DanilaWeb/static/js/787.e563d797.chunk.js",
+    "static/media/Build12.png": "/DanilaWeb/static/media/Build12.e26cbaca6daac903060e.png",
+    "static/media/MulTest.png": "/DanilaWeb/static/media/MulTest.e8f06de68c6f58a3050c.png",
+    "static/media/AugmentedRealityMob.png": "/DanilaWeb/static/media/AugmentedRealityMob.8441c92bcecc00aa5ca1.png",
     "static/media/MainPirctureDarker.jpg": "/DanilaWeb/static/media/MainPirctureDarker.89e0e13b09abce852cd7.jpg",
-    "static/media/AugmentedReality.jpeg": "/DanilaWeb/static/media/AugmentedReality.62ac7e96acda3c74828a.jpeg",
+    "static/media/AugmentedRealityDesk.jpeg": "/DanilaWeb/static/media/AugmentedRealityDesk.1ddd5a849840999f822d.jpeg",
     "static/media/Instagram.png": "/DanilaWeb/static/media/Instagram.4fae33bb3996b4426ed1.png",
-    "static/media/Roop.jpeg": "/DanilaWeb/static/media/Roop.5245ee2f7829992d8923.jpeg",
+    "static/media/RoopMob.png": "/DanilaWeb/static/media/RoopMob.146edce34b9fc1b3a124.png",
+    "static/media/RoopDesk.jpeg": "/DanilaWeb/static/media/RoopDesk.8b7d995cdd73be794ef5.jpeg",
+    "static/media/badge.png": "/DanilaWeb/static/media/badge.433f4a1e332749b483c0.png",
     "static/media/DanilaEbalo.jpg": "/DanilaWeb/static/media/DanilaEbalo.197b7305473340cf3e58.jpg",
     "static/media/GitHub_Logo_White.png": "/DanilaWeb/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
+    "static/media/google-play-png-logo-3799.png": "/DanilaWeb/static/media/google-play-png-logo-3799.0062d57195a4e4042a95.png",
     "static/media/montserrat-latin-700italic.woff": "/DanilaWeb/static/media/montserrat-latin-700italic.6779372f04095051c62e.woff",
     "static/media/montserrat-latin-800italic.woff": "/DanilaWeb/static/media/montserrat-latin-800italic.fe82abb0bcede51bf724.woff",
     "static/media/montserrat-latin-600italic.woff": "/DanilaWeb/static/media/montserrat-latin-600italic.c4fcfeeb057724724097.woff",
@@ -45,16 +51,15 @@
     "static/media/montserrat-latin-200.woff2": "/DanilaWeb/static/media/montserrat-latin-200.9d266fbbfa6cab7009bd.woff2",
     "static/media/montserrat-latin-100italic.woff2": "/DanilaWeb/static/media/montserrat-latin-100italic.e279051046ba1286706a.woff2",
     "static/media/montserrat-latin-100.woff2": "/DanilaWeb/static/media/montserrat-latin-100.8d7d79679b70dbe27172.woff2",
-    "static/media/RoguesTales.png": "/DanilaWeb/static/media/RoguesTales.c0a04e2f11dce592a306.png",
     "static/media/email-32.ico": "/DanilaWeb/static/media/email-32.e59651fb4429838afc3e.ico",
     "static/media/logo.svg": "/DanilaWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/DanilaWeb/index.html",
-    "main.1d449b27.css.map": "/DanilaWeb/static/css/main.1d449b27.css.map",
-    "main.6e2b42ca.js.map": "/DanilaWeb/static/js/main.6e2b42ca.js.map",
+    "main.696609b7.css.map": "/DanilaWeb/static/css/main.696609b7.css.map",
+    "main.f05bbdab.js.map": "/DanilaWeb/static/js/main.f05bbdab.js.map",
     "787.e563d797.chunk.js.map": "/DanilaWeb/static/js/787.e563d797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d449b27.css",
-    "static/js/main.6e2b42ca.js"
+    "static/css/main.696609b7.css",
+    "static/js/main.f05bbdab.js"
   ]
 }
