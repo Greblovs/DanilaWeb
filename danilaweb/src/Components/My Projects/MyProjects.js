@@ -27,14 +27,16 @@ const MyProjects = (props) =>{
                 {width>=1024 ?
                 <div className={classes.Interface}>
                     <div className={classes.button}>
-                            <a href ="https://play.google.com/store/apps/details?id=com.TheGreatTeaParty.RoguesTales">
-                                <div className={classes.googlePlay}>
-                                </div>
-                            </a>
                             <a href ="https://github.com/TheGreatTeaParty/RogueUltimate">
                                 <div className={classes.github}>
                                 </div>
                             </a>
+                    </div>
+                    <div className={classes.buttonAddition}>
+                        <a href ="https://play.google.com/store/apps/details?id=com.TheGreatTeaParty.RoguesTales">
+                            <div className={classes.googlePlay}>
+                            </div>
+                        </a>
                     </div>
                     <div className={classes.tags}>
                         <div className={classes.tag}>
@@ -75,10 +77,21 @@ const MyProjects = (props) =>{
                                 Pixel Art
                             </div>
                         </div>
-                        <div className={classes.button}>
-                            <div className={classes.github}>
+                        <div className={classes.buttonMobileWrapper}>
+                            <div className={classes.button}>
+                                <a href ="https://github.com/TheGreatTeaParty/RogueUltimate">
+                                    <div className={classes.github}>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className={classes.button} style={{"float": 'Right'}}>
+                                <a href ="https://play.google.com/store/apps/details?id=com.TheGreatTeaParty.RoguesTales">
+                                    <div className={classes.googlePlay}>
+                                    </div>
+                                </a>
                             </div>
                         </div>
+
                     </div>
                     }
 
@@ -102,12 +115,14 @@ const MyProjects = (props) =>{
                 {width>=1024 ?
                     <div className={classes.Interface}>
                         <div className={classes.button}>
-                            <a href ="https://thegreatteaparty.itch.io/roop">
-                                <div className={classes.itchIO}>
-                                </div>
-                            </a>
                             <a href ="https://github.com/Lev4iks/supreme-eureka">
                                 <div className={classes.github}>
+                                </div>
+                            </a>
+                        </div>
+                        <div className={classes.buttonAddition}>
+                            <a href ="https://thegreatteaparty.itch.io/roop">
+                                <div className={classes.itchIO}>
                                 </div>
                             </a>
                         </div>
@@ -150,8 +165,18 @@ const MyProjects = (props) =>{
                                 Level Design
                             </div>
                         </div>
-                        <div className={classes.button}>
-                            <div className={classes.github}>
+                        <div className={classes.buttonMobileWrapper}>
+                            <div className={classes.button}>
+                                <a href ="https://github.com/Lev4iks/supreme-eureka">
+                                    <div className={classes.github}>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className={classes.button} style={{"float": 'Right'}}>
+                                <a href ="https://thegreatteaparty.itch.io/roop">
+                                    <div className={classes.itchIO}>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +245,7 @@ const MyProjects = (props) =>{
                                 Agile
                             </div>
                         </div>
-                        <div className={classes.button}>
+                        <div className={classes.buttonCenter}>
                             <div className={classes.github}>
                             </div>
                         </div>
@@ -290,7 +315,7 @@ const MyProjects = (props) =>{
                                 A*
                             </div>
                         </div>
-                        <div className={classes.button}>
+                        <div className={classes.buttonCenter}>
                             <div className={classes.github}>
                             </div>
                         </div>
@@ -316,14 +341,16 @@ const MyProjects = (props) =>{
                 {width>=1024 ?
                 <div className={classes.Interface}>
                     <div className={classes.button}>
-                            <a href ="https://youtu.be/_HcFK6W8wvA">
-                                <div className={classes.youtube}>
-                                </div>
-                            </a>
                             <a href ="https://github.com/batovski/Client-Server">
                                 <div className={classes.github}>
                                 </div>
                             </a>
+                    </div>
+                    <div className={classes.buttonAddition}>
+                        <a href ="https://youtu.be/_HcFK6W8wvA">
+                            <div className={classes.youtube}>
+                            </div>
+                        </a>
                     </div>
                     <div className={classes.tags}>
                         <div className={classes.tag}>
@@ -364,8 +391,18 @@ const MyProjects = (props) =>{
                                 TCP / UDP
                             </div>
                         </div>
-                        <div className={classes.button}>
-                            <div className={classes.github}>
+                        <div className={classes.buttonMobileWrapper}>
+                            <div className={classes.button}>
+                                <a href ="https://github.com/batovski/Client-Server">
+                                    <div className={classes.github}>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className={classes.button} style={{"float": 'Right'}}>
+                                <a href ="https://youtu.be/_HcFK6W8wvA">
+                                    <div className={classes.youtube}>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>

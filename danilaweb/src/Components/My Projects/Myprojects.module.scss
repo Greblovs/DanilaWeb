@@ -1,6 +1,8 @@
 $main-font: "Merriweather";
 
-
+a{
+  text-decoration: none;
+}
 .Title{
   margin-top: 80px !important;
   text-align: center;
@@ -77,7 +79,7 @@ $main-font: "Merriweather";
 @media (min-width: 1024px) {
   .projectBox {
     width: 900px;
-    height: 300px;
+    height: 320px;
     margin-top: 100px !important;
     margin: 0 auto;
     margin-bottom: 50px !important;
@@ -92,7 +94,7 @@ $main-font: "Merriweather";
     float: left;
     padding-left: 70px;
     width: 400px;
-    height: 300px;
+    height: 320px;
   }
 
   .projectText{
@@ -146,6 +148,15 @@ $main-font: "Merriweather";
     margin-top: 240px;
     margin-left: 220px;
   }
+  .buttonAddition{
+    width: 120px;
+    height: 36px;
+    background-color: black;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 240px;
+    margin-left: 50px;
+  }
 }
 
 @media(max-width: 1024px){
@@ -176,11 +187,10 @@ $main-font: "Merriweather";
   }
   .projectInfo{
     width: 100%;
-
   }
+
   .Interface{
     width: 100%;
-
     padding-right: 50px;
   }
   .tags{
@@ -205,6 +215,19 @@ $main-font: "Merriweather";
     font-size: 1.2em;
   }
   .button{
+    width: 120px;
+    height: 36px;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+
+  }
+  .buttonMobileWrapper{
+    width: 280px;
+    margin: auto;
+  }
+
+  .buttonCenter{
     width: 120px;
     height: 36px;
     background-color: black;
@@ -246,27 +269,28 @@ $main-font: "Merriweather";
   margin-top: 3px !important;
   margin: auto;
   background-size: cover !important;
-  width: 90px;
+  width: 120px;
   height: 30px;
-  background: url("../../Icons/google-play-badge.png") center center;
+  background: url("../../Icons/google-play-png-logo-3799.png") center center;
 
 }
 .itchIO{
   margin-top: 3px !important;
   margin: auto;
   background-size: cover !important;
-  width: 90px;
+  width: 110px;
   height: 30px;
   background: url("../../Icons/badge.png") center center;
 
 }
 .youtube{
-  margin-top: 3px !important;
-  margin: auto;
-  background-size: cover !important;
-  width: 90px;
-  height: 30px;
-  background: url("../../Icons/yt_logo_rgb_dark.png") center center;
+
+
+  background-size: contain !important;
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+  background: url("../../Icons/yt_logo_rgb_dark.png") center center no-repeat;
 
 }
 

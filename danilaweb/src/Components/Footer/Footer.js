@@ -1,10 +1,16 @@
 import React, {Component, useCallback, useEffect, useRef, useState} from "react";
 import classes from "./Footer.module.scss"
+import { saveAs } from "file-saver";
 
 
 
 const Footer = (props) => {
 
+    const saveFile = () =>{
+        saveAs(
+            "https://drive.google.com/file/d/1k9RjIeUp1qQOee6GxpE-rlDwjOC-98js/view?usp=sharing", "Resume.pdf"
+        )
+    }
 
     return(
         <div ref = {props.prRef}  className={classes.Footer}>
@@ -34,7 +40,7 @@ const Footer = (props) => {
                 </div>
                 <div className={classes.support}>
                     <span className={classes.subTitle}>Resume</span>
-                    <span className={classes.entery}>Download</span>
+                    <span onClick={saveFile} className={classes.entery}>Download</span>
                 </div>
             </div>
         </div>
